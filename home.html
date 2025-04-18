@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bakery Shop</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-yellow-100 font-sans text-black">
+
+  <!-- Header -->
+  <h1 class="text-5xl md:text-7xl font-semibold italic text-center text-yellow-700 mt-10">
+    My Bakery
+  </h1>
+
+  <!-- Navbar / Taskbar -->
+  <div class="flex flex-wrap justify-center items-center gap-4 mt-10 px-4">
+    <button class="bg-yellow-300 text-black px-6 py-3 rounded-md text-lg hover:bg-yellow-400">Home</button>
+
+    <label for="Category" class="text-yellow-900 text-xl font-bold">Category</label>
+    <select id="Category" class="bg-white text-black px-4 py-2 rounded-md text-lg">
+      <option value="Cakes">Cakes</option>
+      <option value="Cookies">Cookies</option>
+      <option value="Pastries">Pastries</option>
+      <option value="Other">Other</option>
+    </select>
+
+    <button class="bg-yellow-300 text-black px-6 py-3 rounded-md text-lg hover:bg-yellow-400">Contact</button>
+
+    <a href="about.html">
+      <button class="bg-yellow-300 text-black px-6 py-3 rounded-md text-lg hover:bg-yellow-400">About</button>
+    </a>
+
+
+  <!-- Content Section -->
+  <div class="mt-16 flex flex-col-reverse lg:flex-row items-center justify-center gap-10 px-4">
+    
+    <!-- Left Text and Register Button -->
+    <div class="lg:w-1/2 text-center lg:text-left">
+      <h2 class="text-3xl md:text-4xl text-yellow-800 font-semibold mb-6">
+        Taste the joy of homemade treats!
+      </h2>
+      <h2 class="text-2xl md:text-3xl text-yellow-900 mb-8">
+        Delight in every bite. Freshly baked happiness, just for you!
+      </h2>
+
+      <div class="flex justify-center lg:justify-start">
+        <a href="register.html">
+          <button class="bg-yellow-500 text-black px-8 py-4 rounded-md text-xl font-bold hover:bg-yellow-600 transition">
+            Click to Register
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <!-- Right Image -->
+    <div class="lg:w-1/2 flex justify-center">
+      <img src="https://plus.unsplash.com/premium_photo-1663133727215-bf732c62d681?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGJha2VyeSUyMGl0ZW1zfGVufDB8fDB8fHww
+           alt="Bakery display" 
+           class="w-80 md:w-[400px] rounded-xl shadow-xl border-4 border-yellow-300" />
+    </div>
+  </div>
+
+</body>
+</html>
